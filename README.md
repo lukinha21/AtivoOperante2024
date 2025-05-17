@@ -13,7 +13,7 @@ Sistema desenvolvido com Java e Spring Boot para o controle e gestão de ativos 
 ## ⚙️ Como Executar
 
 1. Clone o repositório:
-   git clone https://github.com/seu-usuario/AtivoOperante2024.git
+   git clone https://github.com/lukinha21/AtivoOperante2024.git
    cd AtivoOperante2024
    
 Compile e execute com Maven:
@@ -23,7 +23,6 @@ Acesse a aplicação:
 http://localhost:8080
 
 📁 Estrutura do Projeto
-css
 AtivoOperante2024/
 ├── src/
 │   ├── main/
