@@ -1,0 +1,120 @@
+/* Reset CSS para remover margens e preenchimentos padrão */
+body, h1, h2, h3, h4, h5, h6, p, ul, li, form, input, textarea, select {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: block;
+    flex-wrap: wrap; 
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #e7e4e4 !important;
+
+}
+
+.primary {
+    display: block;
+    margin-top: 3%;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.minha-tabela {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.minha-tabela th, .minha-tabela td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.minha-tabela th {
+    background-color: #f2f2f2;
+}
+
+.minha-tabela tr:hover {
+    background-color: #f5f5f5;
+}
+
+.colored-toast, .swal2-icon-success {
+    background-color: #a5dc86 !important; /* Cor de fundo para sucesso */
+}
+
+.colored-toast.error, .swal2-icon-error {
+    background-color: #f27474 !important; /* Cor de fundo para erro */
+}
+
+.swal2-icon-info {
+    background-color: #3fc3ee !important; /* Cor de fundo para erro */
+}
+/* swal2-popup.swal2-toast {
+    class="swal2-popup swal2-toast swal2-icon-info swal2-show" */
+    .swal2-html-container, .swal2-close,.swal2-popup.swal2-toast, .swal2-icon-content {
+        color: white;
+      }
+
+      .swal2-icon.swal2-info.swal2-icon-show,.swal2-error,
+      .swal2-success, .swal2-success-ring,.swal2-success-circular-line-left, .swal2-success-circular-line-right,
+      .swal2-success-fix, .swal2-success-ring, .swal2-success-line-long, .swal2-success-line-tip {
+        color: white !important;
+        border-color: white !important;
+      }
+      
